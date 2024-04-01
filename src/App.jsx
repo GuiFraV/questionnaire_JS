@@ -1,10 +1,13 @@
-function App() {
+import React from 'react';
+import { Canvas } from '@react-three/fiber';
+import { Stars } from '@react-three/drei';
 
+function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <Canvas>
+      <Stars />
+    </Canvas>
+  );
 }
 
-export default App
+export default App;
