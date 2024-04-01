@@ -4,9 +4,11 @@ import { Stars } from '@react-three/drei';
 
 function App() {
   return (
-    <Canvas>
-      <Stars />
-    </Canvas>
+    <div className="h-screen bg-[#0b3d91]">
+      <Canvas style={{ height: "100vh", width: "100vw" }}>
+        <Stars />
+      </Canvas>
+    </div>
   );
 }
 
